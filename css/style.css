@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+.img{
+    width: 16vh;
+    height: 16vh;
+    margin-top: 2.8vh;
+    margin-left: 2vh;
+    
+   
+}
+img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+.sidebar{
+    width: 40vh;
+    height: 100%;
+background-color: white;
+position: fixed;
+
+}
+.sidebar h3{
+    margin-top: 4vh;
+    margin-left: 2vh;
+    font-weight: 400;
+    font-size: x-large;
+    
+}
+.sidebar p{
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
+.menu a{
+    display: block;
+    text-decoration: none;
+    
+    padding-left: 2vh;
+    font-weight: 320;
+    padding: 8px 16px!important;
+
+}
+.menu a i{
+    margin-right: 10px;
+}
+
+.menu a:hover{
+background-color: rgb(204, 204, 204);
+}
+
+.menu .first a:hover{
+color: black;
+}
+.menu{
+    margin-top: 2vh;
+    
+}
+.icons{
+    margin-left: 2vh;
+    margin-top: 3vh;
+}
+
+.icons i:hover{
+opacity: 0.6;
+}
+#sidebar{
+    position: fixed;
+    background-color: red;
+    width: 100%;
+    height: 90px;
+    z-index: -22;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imag{
+    width: 9vh;
+    height: 9vh;
+   margin: 10px;
+
+    
+}
+.imag img{
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+#sidebar i{
+    margin-left: 40vh;
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+    
+}
+@media screen and (min-width : 992px) {
+    #sidebar{
+        display: none;
+
+    }
+    .sidebar{
+        display: block;
+    }
+}
